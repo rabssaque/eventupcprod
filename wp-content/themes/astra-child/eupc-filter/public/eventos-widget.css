@@ -1,0 +1,277 @@
+@import url("https://www.upc.edu.pe/static/css/fonts-familiy.css");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap&ver=5.6.1");
+
+
+.eupc-widget-eventos {
+    font-family: 'Nunito', sans-serif
+}
+
+.eupc-widget-eventos ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+/* grilla card */
+
+
+@media (min-width:768px) {
+    .eupc-widget-eventos .woocommerce ul.products li.product {
+        width: calc(25% - 15px);
+        margin: 0 20px 2.992em 0;
+    }
+}
+
+.eupc-widget-eventos .container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 992px) {
+    .eupc-widget-eventos .container {
+        max-width: 1024px;
+    }
+    .eupc-widget-eventos .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .eupc-widget-eventos .container {
+        max-width: 1140px;
+    }
+}
+
+
+
+/* ----------------------- */
+
+/* Plantilla - card (Producto) */
+
+.eupc-widget-eventos .tipo-evento span {
+    text-transform: uppercase;
+    padding: .25rem .5rem;
+    color: white;
+    font-size: .75rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.eupc-widget-eventos .tipo-evento.tipo_online span {
+    background-color: #1976D2;
+}
+
+.eupc-widget-eventos .tipo-evento.tipo_presencial span {
+    background-color: #7E57C2;
+}
+
+.eupc-widget-eventos .tipo-evento.tipo_en-vivo span {
+    background-color: #F34F54;
+}
+
+.eupc-widget-eventos .fecha-titulo {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.eupc-widget-eventos .woocommerce ul.products {
+    margin: 1.5625rem 0;
+}
+
+.eupc-widget-eventos .woocommerce .products li {
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.eupc-widget-eventos .woocommerce .products li .productos-item__body h3 {
+    color: #3a3a3a;
+}
+
+.eupc-widget-eventos .woocommerce .products li a {
+    text-decoration: none;
+}
+
+.woocommerce ul.products li.product {
+    margin-bottom: .5em;
+}
+
+.eupc-widget-eventos .eupc-ele_imagen {
+    height: 145px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.eupc-widget-eventos .productos-item__body__fecha {
+    font-weight: bold;
+    font-size: .875rem;
+    margin: .75rem 0;
+    text-transform: uppercase;
+    color: #939393;
+}
+
+.eupc-widget-eventos .productos-item__body__share {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .eupc-widget-eventos .woocommerce ul.products {
+        display: flex;
+        clear: both;
+    }
+
+    .eupc-widget-eventos .woocommerce ul.products li.product {
+        margin-bottom: 2.5em;
+    }
+
+    .eupc-widget-eventos .woocommerce .products li {
+        box-shadow: none;
+        transition: all .2s ease-in-out;
+        border-radius: .355rem;
+    }
+
+    .eupc-widget-eventos .woocommerce.columns-4 ul.products li.product:nth-child(4n) {
+        margin-right: 0;
+        clear: right;
+    }
+
+    /* .eupc-widget-eventos .woocommerce .products li:hover {
+        transform: scale(1.1);
+        transition: transform .5s ease-in-out;
+    } */
+
+    .eupc-widget-eventos .woocommerce .products li .productos-item__body {
+        box-shadow: 0px 3px 6px #00000029;
+        border-radius: 0 0 .355rem .375rem;
+    }
+
+    .eupc-widget-eventos .eupc-ele_imagen {
+        height: 200px;
+    }
+
+}
+
+.eupc-widget-eventos .c-header-card {
+    position: relative;
+}
+
+.eupc-widget-eventos .c-header-card .tipo-evento {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 1.3;
+}
+
+.eupc-widget-eventos .woocommerce .products li .productos-item__body {
+    padding: 10px 20px;
+}
+
+.eupc-widget-eventos .woocommerce .products li .productos-item__body h3 {
+    font-family: 'zizou-slab-bold';
+    font-size: 1rem;
+    margin-bottom: 2rem !important;
+}
+
+@media (min-width:1024px) {
+    .eupc-widget-eventos .woocommerce .products li .productos-item__body h3 {
+        height: 60px;
+    }
+}
+
+
+
+.eupc-widget-eventos .c-footer-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eupc-widget-eventos .c-footer-card>a {
+    display: none;
+}
+
+.eupc-widget-eventos .c-footer-card img {
+    margin-bottom: 0 !important;
+}
+
+.eupc-widget-eventos .productos-item__body__btn a {
+    color: #D50000;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.eupc-widget-eventos .productos-item__imagen {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: gray;
+}
+
+.eupc-widget-eventos .woocommerce ul.products li {
+    display: flex;
+    width: 100%;
+}
+
+.eupc-widget-eventos .productos-item__imagen,
+.eupc-widget-eventos .c-header-card {
+    width: 8rem;
+    height: 100%;
+}
+
+
+@media (min-width:48rem) {
+
+    .eupc-widget-eventos .productos-item__imagen,
+    .eupc-widget-eventos .c-header-card {
+        height: 166px;
+        border-radius: .355rem .375rem 0 0;
+    }
+
+    .eupc-widget-eventos .woocommerce ul.products li {
+        display: block;
+    }
+
+    .eupc-widget-eventos .productos-item__imagen,
+    .eupc-widget-eventos .c-header-card {
+        width: 100%;
+    }
+
+}
+
+/* BTN MORE  */
+
+.eupc-widget-eventos .taxs-btn-more a {
+    font-family: "sgothic-bdcap";
+}
+
+.eupc-widget-eventos .taxs-btn-more {
+    text-align: center;
+}
+
+.eupc-widget-eventos .taxs-btn-more a {
+    text-align: center;
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    border: 1px solid #f3f3f3;
+    border-color: #D50000;
+    color: #D50000;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    padding: .625rem;
+    text-decoration: none;
+}
+
+.eupc-widget-eventos .taxs-btn-more a:hover {
+    color: #D50000;
+}
+
+.eupc-widget-eventos .taxs-btn-more a img {
+    margin-left: 8px;
+}

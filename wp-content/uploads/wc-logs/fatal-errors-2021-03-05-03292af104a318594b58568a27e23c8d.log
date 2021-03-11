@@ -1,0 +1,9 @@
+2021-03-05T19:44:38+00:00 CRITICAL Uncaught Error: Call to a member function getBody() on string in /home/eventupcprod/webapps/eventupcprod/wp-content/plugins/upc-sso/public/class-upc-sso-public.php:138
+Stack trace:
+#0 /home/eventupcprod/webapps/eventupcprod/wp-includes/class-wp-hook.php(287): Upc_Sso_Public->check_token_function()
+#1 /home/eventupcprod/webapps/eventupcprod/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters()
+#2 /home/eventupcprod/webapps/eventupcprod/wp-includes/plugin.php(484): WP_Hook->do_action()
+#3 /home/eventupcprod/webapps/eventupcprod/wp-admin/admin-ajax.php(199): do_action()
+#4 {main}
+  thrown en /home/eventupcprod/webapps/eventupcprod/wp-content/plugins/upc-sso/public/class-upc-sso-public.php en la línea 138
+

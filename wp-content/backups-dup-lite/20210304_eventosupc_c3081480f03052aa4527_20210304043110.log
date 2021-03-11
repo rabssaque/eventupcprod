@@ -1,0 +1,88 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: March 4, 2021 4:32 am
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.4.0
+WORDPRESS:	5.6.2
+PHP INFO:	7.4.15 | SAPI: fpm-fcgi
+SERVER:		nginx/1.19.2 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (256M default) 
+MEMORY STACK: 20MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:54 | filtered:0 | create:54
+FILTERED: []
+SQL CREATED: 20210304_eventosupc_c3081480f03052aa4527_20210304043110_database.sql
+SQL FILE SIZE: 13.83MB (14499410)
+SQL FILE TIME: 2021-03-04 04:32:20
+SQL RUNTIME: 0.40 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /home/eventupcprod/webapps/eventupcprod
+ARCHIVE FILE: 20210304_eventosupc_c3081480f03052aa4527_20210304043110_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	0B
+STATS:	Dirs 0 | Files 0
+SQL ADDED: 20210304_eventosupc_c3081480f03052aa4527_20210304043110_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home/eventupcprod/webapps/eventupcprod/wp-content/backups-dup-lite/tmp/20210304_eventosupc_c3081480f03052aa4527_20210304043110_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 0
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 658.7KB
+ARCHIVE RUNTIME: 0.37 sec.
+MEMORY STACK: 22MB
+building installer
+[PHP ERR][WARN] MSG:is_readable(): open_basedir restriction in effect. File(/dev/urandom) is not within the allowed path(s): (/home/eventupcprod/webapps/eventupcprod:/var/lib/php/session:/tmp) [CODE:2|FILE:/home/eventupcprod/webapps/eventupcprod/wp-content/plugins/duplicator/classes/class.password.php|LINE:63]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Installer->build, DUP_Installer->create_enhanced_installer_files, DUP_Installer->create_archive_config_file, DUP_PasswordHash->HashPassword, DUP_PasswordHash->get_random_bytes, is_readable, DUP_Handler::error, DUP_Handler::getMessage
+add_extra_files1
+add_extra_files2
+add_extra_files3
+add_extra_files4
+Doing archive file check
+add_extra_files5
+add_extra_files6
+add_extra_files8
+Successfully opened zip /home/eventupcprod/webapps/eventupcprod/wp-content/backups-dup-lite/tmp/20210304_eventosupc_c3081480f03052aa4527_20210304043110_archive.zip
+Adding enhanced installer files to archive using ZipArchive
+Installer files added to archive
+Added to archive
+After ziparchive close when adding installer
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 13.83MB
+INSTALLER FILE: 63.95KB
+ARCHIVE FILE: 2.13MB 
+RECUENTO ARCHIVOS/DIRECTORIOS ESPERADOS: 0
+RECUENTO ARCHIVOS/DIRECTORIOS ACTUALES: 0
+PRUEBA DE CONSISTENCIA DEL ARCHIVO: Superado
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 1.01 sec.
+PEAK PHP MEMORY USED: 34.73MB
+DONE PROCESSING => 20210304_eventosupc March 4, 2021 4:32 am
+

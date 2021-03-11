@@ -1,0 +1,510 @@
+{
+    "RPT": {
+        "ScanTime": "0.00 sec.",
+        "ScanFile": "20210304_eventosupc_c3081480f03052aa4527_20210304043110_scan.json",
+        "Warnings": 1,
+        "Success": 5
+    },
+    "SRV": {
+        "PHP": {
+            "websrv": true,
+            "openbase": false,
+            "maxtime": true,
+            "mysqli": true,
+            "version": true
+        },
+        "SYS": {
+            "managedHost": true,
+            "ALL": "Warn"
+        },
+        "WP": {
+            "version": true,
+            "core": true,
+            "ismu": false,
+            "ALL": "Good"
+        }
+    },
+    "ARC": {
+        "Size": "0B",
+        "DirCount": "0",
+        "FileCount": "0",
+        "FullCount": "0",
+        "WarnFileCount": 0,
+        "WarnDirCount": 0,
+        "UnreadableDirCount": 0,
+        "UnreadableFileCount": 0,
+        "FilterDirsAll": [
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/.opcache",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/ai1wm-backups",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/backups-dup-lite",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/backups-dup-pro",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/backupwordpress",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/bps-backup",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/cache",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/content\/cache",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/contents\/cache",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/infinitewp\/backups",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/managewp\/backups",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/old-cache",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/updraft",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/aiowps_backups",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/backupbuddy_backups",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/backupbuddy_temp",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/ithemes-security\/backups",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/mainwp\/backup",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/pb_backupbuddy",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/snapshots",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/sucuri",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/wp-clone",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/wp_all_backup",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/wpbackitup_backups",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/wfcache",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/wishlist-backup",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-snapshots"
+        ],
+        "FilterFilesAll": [
+            "error_log",
+            "error.log",
+            "debug_log",
+            "ws_ftp.log",
+            "dbcache",
+            "pgcache",
+            "objectcache",
+            ".DS_Store",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/.htaccess",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/web.config",
+            "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-config.php"
+        ],
+        "FilterExtsAll": [],
+        "FilterInfo": {
+            "Dirs": {
+                "Warning": [],
+                "Unreadable": [],
+                "AddonSites": [],
+                "Core": [
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-snapshots",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/backups-dup-lite",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/.opcache",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/backups-dup-pro",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/ai1wm-backups",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/backupwordpress",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/content\/cache",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/contents\/cache",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/infinitewp\/backups",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/managewp\/backups",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/old-cache",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/plugins\/all-in-one-wp-migration\/storage",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/updraft",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/wishlist-backup",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/wfcache",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/bps-backup",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/cache",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/aiowps_backups",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/backupbuddy_temp",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/backupbuddy_backups",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/ithemes-security\/backups",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/mainwp\/backup",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/pb_backupbuddy",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/snapshots",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/sucuri",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/wp-clone",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/wp_all_backup",
+                    "\/home\/eventupcprod\/webapps\/eventupcprod\/wp-content\/uploads\/wpbackitup_backups"
+                ],
+                "Global": [],
+                "Instance": []
+            },
+            "Files": {
+                "Size": [],
+                "Warning": [],
+                "Unreadable": [],
+                "AddonSites": [],
+                "Core": [],
+                "Global": [
+                    "error_log",
+                    "error.log",
+                    "debug_log",
+                    "ws_ftp.log",
+                    "dbcache",
+                    "pgcache",
+                    "objectcache",
+                    ".DS_Store"
+                ],
+                "Instance": []
+            },
+            "Exts": {
+                "Core": [],
+                "Global": [],
+                "Instance": []
+            },
+            "UDirCount": 0,
+            "UFileCount": 0,
+            "UExtCount": 0,
+            "TreeSize": [],
+            "TreeWarning": []
+        },
+        "RecursiveLinks": [],
+        "UnreadableItems": [],
+        "Status": {
+            "Size": "Good",
+            "Names": "Good",
+            "UnreadableItems": "Good",
+            "MigratePackage": "Good",
+            "CanbeMigratePackage": true,
+            "showCreateProcStatus": "Good",
+            "showCreateProc": true,
+            "AddonSites": "Good"
+        },
+        "Dirs": [],
+        "Files": []
+    },
+    "DB": {
+        "Status": {
+            "Success": true,
+            "DB_Case": "Good",
+            "DB_Rows": "Good",
+            "DB_Size": "Good",
+            "TBL_Case": "Good",
+            "TBL_Rows": "Good",
+            "TBL_Size": "Warn",
+            "Triggers": "Good"
+        },
+        "Size": "18.8MB",
+        "Rows": "9,024",
+        "TableCount": 54,
+        "TableList": {
+            "eupc_actionscheduler_actions": {
+                "Case": 0,
+                "Rows": "74",
+                "Size": "160KB",
+                "USize": 163840
+            },
+            "eupc_actionscheduler_claims": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_actionscheduler_groups": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_actionscheduler_logs": {
+                "Case": 0,
+                "Rows": "214",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_cities": {
+                "Case": 0,
+                "Rows": "3,615",
+                "Size": "272KB",
+                "USize": 278528
+            },
+            "eupc_commentmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_comments": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "112KB",
+                "USize": 114688
+            },
+            "eupc_duplicator_packages": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_eventos_registros": {
+                "Case": 0,
+                "Rows": "14",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "eupc_eventos_suscripciones": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "eupc_links": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_nextend2_image_storage": {
+                "Case": 0,
+                "Rows": "3",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_nextend2_section_storage": {
+                "Case": 0,
+                "Rows": "12",
+                "Size": "176KB",
+                "USize": 180224
+            },
+            "eupc_nextend2_smartslider3_generators": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "eupc_nextend2_smartslider3_sliders": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "112KB",
+                "USize": 114688
+            },
+            "eupc_nextend2_smartslider3_sliders_xref": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_nextend2_smartslider3_slides": {
+                "Case": 0,
+                "Rows": "4",
+                "Size": "176KB",
+                "USize": 180224
+            },
+            "eupc_options": {
+                "Case": 0,
+                "Rows": "488",
+                "Size": "2.17MB",
+                "USize": 2277376
+            },
+            "eupc_postmeta": {
+                "Case": 0,
+                "Rows": "3,335",
+                "Size": "13.45MB",
+                "USize": 14106624
+            },
+            "eupc_posts": {
+                "Case": 0,
+                "Rows": "305",
+                "Size": "352KB",
+                "USize": 360448
+            },
+            "eupc_term_relationships": {
+                "Case": 0,
+                "Rows": "274",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_term_taxonomy": {
+                "Case": 0,
+                "Rows": "78",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_termmeta": {
+                "Case": 0,
+                "Rows": "139",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_terms": {
+                "Case": 0,
+                "Rows": "78",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_usermeta": {
+                "Case": 0,
+                "Rows": "234",
+                "Size": "112KB",
+                "USize": 114688
+            },
+            "eupc_users": {
+                "Case": 0,
+                "Rows": "6",
+                "Size": "64KB",
+                "USize": 65536
+            },
+            "eupc_wc_admin_note_actions": {
+                "Case": 0,
+                "Rows": "27",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_wc_admin_notes": {
+                "Case": 0,
+                "Rows": "26",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "eupc_wc_category_lookup": {
+                "Case": 0,
+                "Rows": "4",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "eupc_wc_customer_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_wc_download_log": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_wc_order_coupon_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_wc_order_product_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "80KB",
+                "USize": 81920
+            },
+            "eupc_wc_order_stats": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "64KB",
+                "USize": 65536
+            },
+            "eupc_wc_order_tax_lookup": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_wc_product_meta_lookup": {
+                "Case": 0,
+                "Rows": "47",
+                "Size": "112KB",
+                "USize": 114688
+            },
+            "eupc_wc_reserved_stock": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "eupc_wc_tax_rate_classes": {
+                "Case": 0,
+                "Rows": "2",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_wc_webhooks": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_woocommerce_api_keys": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_woocommerce_attribute_taxonomies": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_woocommerce_downloadable_product_permissions": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "80KB",
+                "USize": 81920
+            },
+            "eupc_woocommerce_log": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_woocommerce_order_itemmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_woocommerce_order_items": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_woocommerce_payment_tokenmeta": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_woocommerce_payment_tokens": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_woocommerce_sessions": {
+                "Case": 0,
+                "Rows": "1",
+                "Size": "32KB",
+                "USize": 32768
+            },
+            "eupc_woocommerce_shipping_zone_locations": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_woocommerce_shipping_zone_methods": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "eupc_woocommerce_shipping_zones": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "16KB",
+                "USize": 16384
+            },
+            "eupc_woocommerce_tax_rate_locations": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "48KB",
+                "USize": 49152
+            },
+            "eupc_woocommerce_tax_rates": {
+                "Case": 0,
+                "Rows": "0",
+                "Size": "80KB",
+                "USize": 81920
+            },
+            "eupc_wpforms_tasks_meta": {
+                "Case": 0,
+                "Rows": "35",
+                "Size": "16KB",
+                "USize": 16384
+            }
+        },
+        "RawSize": 19709952
+    },
+    "LL": {
+        "TotalSize": "18.8MB",
+        "Status": {
+            "TotalSize": "Good"
+        }
+    }
+}

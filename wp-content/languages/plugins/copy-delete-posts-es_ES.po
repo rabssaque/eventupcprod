@@ -1,0 +1,32 @@
+# Translation of Plugins - Copy Page - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Copy Page - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-05-04 20:42:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Copy Page - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://copy-delete-posts.com/"
+msgstr "https://copy-delete-posts.com/"
+
+#. Author of the plugin
+msgid "Copy Delete Posts"
+msgstr "Copy Delete Posts"
+
+#. Description of the plugin
+msgid "The best solution to easily make duplicates of your posts & pages, and delete them in one go."
+msgstr "La mejor solución para hacer fácilmente duplicados de tus entradas y páginas y borrarlos de una sola vez."
+
+#. Plugin URI of the plugin
+msgid "https://copy-delete-posts.com"
+msgstr "https://copy-delete-posts.com"
+
+#. Plugin Name of the plugin
+msgid "Copy & Delete Posts"
+msgstr "Copy & Delete Posts"
